@@ -6,7 +6,7 @@ import com.alibaba.druid.pool.DruidDataSourceFactory
 
 object JdbcUtil {
   private  val dataSource=int()
-
+//TODO test
   private def int()={
     val properties = new Properties()
     properties.put("driverClassName", "com.mysql.jdbc.Driver")
